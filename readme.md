@@ -3,8 +3,8 @@
 [[![Coverage Status](https://coveralls.io/repos/github/gauraut/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/gauraut/cpp-boilerplate?branch=master)
 ---
 ## Author(s)
-gauraut (Driver)
-Abhijit Mahalle (Navigator)
+- gauraut (Driver)
+- Abhijit Mahalle (Navigator)
 ## Overview
 
 Simple starter C++ project with:
