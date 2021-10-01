@@ -17,7 +17,7 @@ class PIDController {
  public:
   PIDController(); //default constructor
   PIDController(double &st, double &fv); //input argument constructor
-  double setpoint = 0, finalvalue = 0; // default value
+  double setpoint, finalvalue; // default value
 
   double compute();
 

@@ -8,10 +8,12 @@
 
 #include "PIDController.h"
 
+PIDController::PIDController() {
+  setpoint = 0;
+  finalvalue = 0;
+}
 
-PIDController::PIDController (double &st, double &fv) {
-  setpoint = st;
-  finalvalue = fv;
+PIDController::PIDController(double &st, double &fv) {
 }
 /// @fn double compute()
 /// @brief

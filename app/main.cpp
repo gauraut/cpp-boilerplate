@@ -23,6 +23,6 @@ int main() {
   std::cin >> setpoint;
 
   PIDController pid(setpoint, finalvalue);
-	std::cout << pid.compute() << std::endl;
-	return 0;
+  std::cout << pid.compute() << std::endl;
+  return 0;
 }
